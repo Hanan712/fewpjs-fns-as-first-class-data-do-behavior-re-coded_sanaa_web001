@@ -15,4 +15,7 @@ function greet(timeString) {
   return "Good Afternoon";
 }
 /* Write your implementation of greet() */
+function displayMessage(msg) {
+  document.getElementById("greeting").innerText = msg;
+} 
 /* Write your implementation of displayMessage() */
